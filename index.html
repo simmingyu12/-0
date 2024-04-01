@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sim min gyu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to IT Academy!</h1>
+        <div id="userStatus"></div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="section">
+                <h2>Clock</h2>
+                <div id="clock"></div>
+            </div>
+            <div class="section">
+                <h2>Weather</h2>
+                <div id="weather"></div>
+            </div>
+            <div class="section">
+                <h2>Login</h2>
+                <div id="loginContainer"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Stored Names</h2>
+                <div id="memoContainer">
+                    <textarea id="memoInput" placeholder="메모를 입력하세요..."></textarea>
+                    <button id="addMemoBtn">메모 추가</button>
+                </div>
+                <ul id="memoList"></ul>
+            </div>
+            <div class="section">
+                <h2>Random Image</h2>
+                <div id="imageContainer"></div>
+                <button id="randomImageBtn">랜덤 이미지 보기</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
